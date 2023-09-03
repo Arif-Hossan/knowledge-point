@@ -1,0 +1,18 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img {
+    width: 350px;
+}
+.navItem a{
+    margin-right: 30px;
+    text-decoration: none;
+}
+.navItem a:hover{
+    color: white;
+    background-color: darkblue;
+    padding: 10px 15px;
+    border-radius: 15px;
+}
