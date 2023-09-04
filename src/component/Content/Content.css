@@ -1,9 +1,14 @@
 .content-container{
     display: grid;
     grid-template-columns: 1fr;
+    margin : 0 2px;
+}
+.bookmark-container{
+    margin: 0 10px;
 }
 @media screen  and (min-width:768px){
     .content-container{
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 3fr 2fr;
+        margin : 0 200px;
     }
 }

@@ -1,0 +1,12 @@
+.spent-time {
+  border-radius: 8px;
+  border: 1px solid #6047ec;
+  background: rgba(96, 71, 236, 0.1);
+  
+}
+.spent-time p{
+  color: #6047ec;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 5px 15px;
+}
