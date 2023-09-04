@@ -1,0 +1,17 @@
+.bookmark {
+  margin-top: 20px;
+  border-radius: 8px;
+  background: rgba(17, 17, 17, 0.05);
+  padding:10px 30px;
+}
+.bookmarkBlogHeader {
+  padding: 20px;
+  border-radius: 8px;
+  background: #fff;
+  margin-bottom: 16px;
+}
+.bookmarkBlogHeader p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}

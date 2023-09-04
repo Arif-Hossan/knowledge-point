@@ -4,7 +4,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Blog = (props) => {
     const { id, blog_cover, blog_title, blog, author_name, author_img,published_date, read_time } = props.blog;
-    console.log(props.blog);
+    // console.log(props.blog);
     // get how many days of publishing the bolg from current date
     const currentDate = new Date();
     const publishedDate = new Date(published_date)
