@@ -5,52 +5,52 @@
       "blog_title": "Difference Between Props and State",
       "blog": "Laborum consequat esse Lorem sit amet excepteur ut. Aliqua in aliquip id eu. Ea duis proident sunt eu commodo elit irure ipsum mollit consectetur. Ipsum adipisicing est magna consectetur occaecat ad laborum mollit in consectetur. Tempor in ullamco ullamco cillum nostrud nulla.\r\n",
       "author_name": "Adrian Wallace",
-      "autor_img": "http://placebeard.it/480",
+      "author_img": "https://placebeard.it/480",
       "read_time": 37
     },
     {
       "id": "64f4cc87d149b577241ff1a0",
-      "blog_cover": "http://placehold.it/32x32",
+      "blog_cover": "https://picsum.photos/id/20/400/200",
       "blog_title": "How Does useState Work?",
       "blog": "Ipsum non sunt adipisicing sint laboris aliqua quis est. Duis reprehenderit culpa qui ad laborum in ad eu occaecat. Enim commodo irure ullamco officia mollit sunt eu nostrud.\r\n",
       "author_name": "Mabel Stout",
-      "autor_img": "http://placebeard.it/480",
+      "author_img": "https://placebeard.it/480",
       "read_time": 33
     },
     {
       "id": "64f4cc8718f71c67467bc340",
-      "blog_cover": "http://placehold.it/32x32",
+      "blog_cover": "https://picsum.photos/id/9/400/200",
       "blog_title": "Without Data Loading what does useEffect do?",
       "blog": "Nostrud ea eu reprehenderit amet eiusmod id tempor. Occaecat elit duis dolor cupidatat ad eu est sint duis nisi. Velit aliqua culpa dolor laborum ullamco ad est esse Lorem.\r\n",
       "author_name": "Lorie Riley",
-      "autor_img": "http://placebeard.it/480",
+      "author_img": "https://placebeard.it/480",
       "read_time": 29
     },
     {
       "id": "64f4cc87de8e99e52d23aefb",
-      "blog_cover": "http://placehold.it/32x32",
+      "blog_cover": "https://picsum.photos/id/4/400/200",
       "blog_title": "How Does React Work",
       "blog": "Qui velit aliquip deserunt consequat ullamco elit id ut laboris nulla consequat velit consectetur. Deserunt consequat cillum ut reprehenderit occaecat ad deserunt. In elit id incididunt minim laboris enim anim non elit. Magna excepteur voluptate eu nostrud reprehenderit esse ipsum qui qui ex aliquip minim. Sint pariatur quis exercitation anim. Exercitation ullamco ex Lorem laboris amet ad. Officia consectetur excepteur fugiat fugiat in elit consequat.\r\n",
       "author_name": "Evangeline Moody",
-      "autor_img": "http://placebeard.it/480",
+      "author_img": "https://placebeard.it/480",
       "read_time": 20
     },
     {
       "id": "64f4cc87589c52d4024c8629",
-      "blog_cover": "http://placehold.it/32x32",
+      "blog_cover": "https://picsum.photos/id/7/400/200",
       "blog_title": "TOYLETRY",
       "blog": "Et irure elit exercitation ullamco incididunt ea ipsum amet fugiat adipisicing excepteur id nisi. Proident consectetur in excepteur et est velit fugiat cillum sunt et. Quis minim aliquip in pariatur sint consequat ullamco in culpa est nulla amet. Quis in incididunt excepteur nisi in quis sunt nulla sint deserunt est.\r\n",
       "author_name": "Maynard Stevenson",
-      "autor_img": "http://placebeard.it/480",
+      "author_img": "https://placebeard.it/480",
       "read_time": 33
     },
     {
       "id": "64f4cc8761bdd615d7129aff",
-      "blog_cover": "http://placehold.it/32x32",
+      "blog_cover": "https://picsum.photos/id/7/400/200",
       "blog_title": "MAROPTIC",
       "blog": "Culpa eu et cillum irure enim nisi sint pariatur nostrud cupidatat Lorem voluptate veniam reprehenderit. Velit ea nostrud consectetur labore dolore veniam anim ipsum anim magna pariatur. Sunt do incididunt culpa deserunt ipsum nisi id nisi aliquip. Nisi do labore anim dolore Lorem enim anim quis et deserunt. Ipsum irure ad consequat ex anim non dolore ut.\r\n",
       "author_name": "Ebony Duffy",
-      "autor_img": "http://placebeard.it/480",
+      "author_img": "https://placebeard.it/480",
       "read_time": 37
     }
   ]
