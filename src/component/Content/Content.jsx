@@ -22,6 +22,19 @@ const Content = () => {
 
     }
 
+    const [bookmarkBlog,setBookmarkBlog] = useState([]);
+    const handleBookmarkBlog = (blog) =>{
+        const exist = bookmarkBlog.find(bg => bg.id ===blog.id);
+        if(exist){
+            alert('Already Added');
+        }
+        else{
+            const newBookmarkBlog = [...bookmarkBlog,blog]
+            setBookmarkBlog(newBookmarkBlog);
+        }
+        
+    }
+
     return (
         <div className='content-container'>
             <section className='blog-container'>
@@ -31,12 +44,13 @@ const Content = () => {
                             key={blog.id}
                             blog={blog}
                             handleSpentReadTime={handleSpentReadTime}
+                            handleBookmarkBlog={handleBookmarkBlog}
                         ></Blog>)
                 }
             </section>
             <section className='bookmark-container'>
                 <SpentTime spentTime={spentTime}></SpentTime>
-                <Bookmark></Bookmark>
+                <Bookmark bookmarkBlog={bookmarkBlog}></Bookmark>
             </section>
         </div>
     );

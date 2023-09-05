@@ -5,6 +5,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 const Blog = (props) => {
     const { id, blog_cover, blog_title, blog, author_name, author_img,published_date, read_time } = props.blog;
     const handleSpentReadTime = props.handleSpentReadTime;
+    const handleBookmarkBlog = props.handleBookmarkBlog;
     // console.log(props.blog);
     // get how many days of publishing the bolg from current date
     const currentDate = new Date();
@@ -24,7 +25,7 @@ const Blog = (props) => {
                 </div>
                 <div className='reading-time'>
                     <p>{read_time} min read</p>
-                    <button><FontAwesomeIcon icon={faBookmark} /></button>
+                    <button onClick={()=>handleBookmarkBlog(props.blog)}><FontAwesomeIcon icon={faBookmark} /></button>
                 </div>
             </section>
             <section>

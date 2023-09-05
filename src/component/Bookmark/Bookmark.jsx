@@ -1,18 +1,17 @@
 import "./Bookmark.css";
 
-const Bookmark = () => {
+const Bookmark = ({ bookmarkBlog }) => {
+    // console.log(bookmarkBlog);
     return (
         <div className="bookmark">
-            <h4>Bookmarked Blogs : 8</h4>
-            <div className="bookmarkBlogHeader">
-                <p>How does react work</p>
-            </div>
-            <div className="bookmarkBlogHeader">
-                <p>How does react work</p>
-            </div>
-            <div className="bookmarkBlogHeader">
-                <p>How does react work</p>
-            </div>
+            <h4>Bookmarked Blogs : {bookmarkBlog.length}</h4>
+            {
+                bookmarkBlog.map((singleBookmark, idx) => <div key={idx} className="bookmarkBlogHeader">
+                    <p>{singleBookmark.blog_title}</p>
+                </div>)
+            }
+
+
         </div>
     );
 };
