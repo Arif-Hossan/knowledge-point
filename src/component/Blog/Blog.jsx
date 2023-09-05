@@ -4,6 +4,7 @@ import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
 const Blog = (props) => {
     const { id, blog_cover, blog_title, blog, author_name, author_img,published_date, read_time } = props.blog;
+    const handleSpentReadTime = props.handleSpentReadTime;
     // console.log(props.blog);
     // get how many days of publishing the bolg from current date
     const currentDate = new Date();
@@ -28,18 +29,10 @@ const Blog = (props) => {
             </section>
             <section>
                 <h2 className='blog-title'>{blog_title}</h2>
-                <button className='markRead'>Mark as read</button>
+                <button onClick={()=>handleSpentReadTime(props.blog)} className='markRead'>Mark as read</button>
             </section>
         </div>
     );
 };
 
 export default Blog;
-
-// // "id": "64f4cc8718f71c67467bc340",
-// "blog_cover": "http://placehold.it/32x32",
-// "blog_title": "Without Data Loading what does useEffect do?",
-// "blog": "Nostrud ea eu reprehenderit amet eiusmod id tempor. Occaecat elit duis dolor cupidatat ad eu est sint duis nisi. Velit aliqua culpa dolor laborum ullamco ad est esse Lorem.\r\n",
-// "author_name": "Lorie Riley",
-// "autor_img": "http://placebeard.it/480",
-// "read_time
